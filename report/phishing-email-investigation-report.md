@@ -70,7 +70,7 @@ Passing SPF, DKIM, and DMARC confirms that the message originated from an authen
 The email exhibited several characteristics commonly associated with phishing campaigns.
 
 **Sender Identity**
-The display name identified the sender as *[Redacted named individual]*, while the actual email address used an unrelated account name. This inconsistency reduces confidence in the claimed identity. Notably, the display name closely mirrored the recipient's own name, despite originating from an unrelated domain — a technique likely used to increase perceived familiarity or trust.
+The display name identified the sender as *[Redacted named individual]*, while the actual email address used an unrelated account name. This inconsistency reduces confidence in the claimed identity. Notably, the display name closely mirrored the recipient's own name, despite originating from an unrelated domain, a technique likely used to increase perceived familiarity or trust.
 
 **Reply-To Address**
 The Reply-To address differed from the sender address, indicating that responses would be directed to a different mailbox. This is a common tactic used to separate the visible sender identity from the destination receiving victim responses.
