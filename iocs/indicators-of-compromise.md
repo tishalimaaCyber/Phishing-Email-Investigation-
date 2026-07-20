@@ -10,20 +10,19 @@
 | Threat Type | Phishing / Advance-Fee Fraud |
 | Risk Level | High |
 | Social Engineering Method | Financial reward, urgency, authority impersonation |
-| Sensitive Data Requested | Full name, address, phone number, occupation, ID document |
+| Sensitive Data Requested | Full name, address, phone number, occupation, government ID document |
 
-
-## Sender Indicators
+### Sender Indicators
 
 | Indicator | Observation |
 |---|---|
-| Display Name  | "Mr. Roger Brechbühler" (claimed identity) |
+| Display Name | Named individual, presented as CEO/Chairman of an impersonated institution (redacted for privacy) |
+| Claimed Institution | AEK Bank 1826 (real institution, impersonated) |
 | Sending Domain | nifty.com |
 | Reply-To Mismatch | Yes |
-| Sender Identity Concern | Display name does not match email address |
+| Sender Identity Concern | Display name does not match sending domain; display name closely mirrored the recipient's own name |
 
-
-## Authentication Results
+### Authentication Results
 
 | Security Control | Result |
 |---|---|
@@ -33,11 +32,19 @@
 
 Note: Authentication confirms the sending domain but does not prove the email content is legitimate.
 
+### Referenced Institutions
+The email referenced several unrelated, legitimate institutions to build false credibility. None were actually connected to the scam:
+- International Monetary Fund (IMF)
+- World Bank
+- Bank of America
+- Royal Bank of Canada
+- HDFC Bank
 
-## Key Findings
-
+### Key Findings
 - Unexpected financial reward claim
-- Request for government identification
+- Impersonation of a real financial institution (AEK Bank 1826) and a named individual in an executive role (redacted for privacy)
+- Sender display name closely mirrored the recipient's own name
+- Request for government identification and other sensitive personal data
 - Urgent response request
-- Use of trusted financial organization names
-- Sender identity inconsistencies
+- Name-dropping of trusted financial organizations unrelated to the scam
+- Sender identity inconsistencies and Reply-To mismatch
