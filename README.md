@@ -37,7 +37,7 @@ The investigated email contained multiple phishing indicators:
 - Fabricated bureaucratic obstacles (administrative restrictions, blacklist claims, processing fees) used to add false legitimacy to the review process.
 - Name-dropping of unrelated, legitimate financial institutions (e.g. IMF, World Bank, and several major commercial banks) with no actual connection to the email, used as a credibility-building tactic.
 - Request for sensitive personal information, including full legal name, residential address, phone number, and a copy of a government-issued ID — a significant escalation beyond typical credential phishing, indicating potential identity theft intent.
-- Urgency-based social engineering, prompting immediate reply to complete a "final identity cross-check."
+- Urgency-based social engineering, prompting immediate reply to complete a "final identity cross-check.
 - Sender identity inconsistencies and a Reply-To address mismatch inconsistent with the claimed sender.
 
 ### Technical Analysis
