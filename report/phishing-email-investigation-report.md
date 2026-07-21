@@ -66,6 +66,8 @@ No hyperlinks or attachments were opened during the investigation.
 ### Interpretation
 Passing SPF, DKIM, and DMARC confirms that the message originated from an authenticated account within the sending domain. These controls verify domain authentication and message integrity; they do not verify that the sender's claims are legitimate or that the content is trustworthy.
 
+Further investigation confirmed that nifty.com is a legitimate, well-known Japanese internet service provider offering webmail services to the public. The phishing email was sent from a personal account on this legitimate platform, rather than from attacker-owned or compromised infrastructure. This is a common technique in phishing campaigns, since the abuse occurs at the account level rather than the domain level, the sending domain's own SPF, DKIM, and DMARC configurations remain valid, allowing the message to pass authentication despite being fraudulent. 
+
 ### Header Analysis
 The email exhibited several characteristics commonly associated with phishing campaigns.
 
