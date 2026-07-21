@@ -51,6 +51,8 @@ The email authentication results were:
 
 Authentication confirmed that the email originated from an authenticated domain, but it did not confirm that the message content was legitimate. This is a key distinction: passing SPF/DKIM/DMARC verifies the sending domain's authorization, not the trustworthiness of the message itself.
 
+Nifty.com is a legitimate, established Japanese internet service provider offering webmail services. The phishing email was sent using a personal account on this legitimate platform rather than from attacker-controlled infrastructure, explaining why domain-level authentication checks passed despite the message being fraudulent.
+
 ### Repository Structure
 
 
