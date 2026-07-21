@@ -19,6 +19,7 @@
 | Display Name | Named individual, presented as CEO/Chairman of an impersonated institution (redacted for privacy) |
 | Claimed Institution | AEK Bank 1826 (real institution, impersonated) |
 | Sending Domain | nifty.com |
+| Sending Platform | Legitimate Japanese ISP webmail service (Nifty) — account-level abuse, not domain compromise
 | Reply-To Mismatch | Yes |
 | Sender Identity Concern | Display name does not match sending domain; display name closely mirrored the recipient's own name |
 
