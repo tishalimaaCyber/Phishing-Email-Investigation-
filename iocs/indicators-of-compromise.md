@@ -33,6 +33,14 @@
 
 Note: Authentication confirms the sending domain but does not prove the email content is legitimate.
 
+## MITRE ATT&CK Mapping
+
+| Technique | ID | Justification |
+|---|---|---|
+| Phishing for Information | T1598 | Email sought to elicit [credentials/payment/data] via reply, no malicious link or attachment present |
+| Impersonation | T1656 | Sender impersonated a trusted brand/individual using a domain that passed authentication checks |
+| Acquire Infrastructure: Domains | T1583.001 | Attacker-controlled domain closely resembled a legitimate brand and had valid SPF/DKIM/DMARC |
+
 ### Referenced Institutions
 The email referenced several unrelated, legitimate institutions to build false credibility. None were actually connected to the scam:
 - International Monetary Fund (IMF)
@@ -49,3 +57,5 @@ The email referenced several unrelated, legitimate institutions to build false c
 - Urgent response request
 - Name-dropping of trusted financial organizations unrelated to the scam
 - Sender identity inconsistencies and Reply-To mismatch
+
+  
