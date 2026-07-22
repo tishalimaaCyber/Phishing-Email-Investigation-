@@ -55,6 +55,13 @@ Nifty.com is a legitimate, established Japanese internet service provider offeri
 
 ### Repository Structure
 
+## MITRE ATT&CK Mapping
+
+| Technique | ID | Justification |
+|---|---|---|
+| Phishing for Information | T1598 | Email sought to elicit [credentials/payment/data] via reply, no malicious link or attachment present |
+| Impersonation | T1656 | Sender impersonated a trusted brand/individual using a domain that passed authentication checks |
+| Acquire Infrastructure: Domains | T1583.001 | Attacker-controlled domain closely resembled a legitimate brand and had valid SPF/DKIM/DMARC |
 
 ### Skills Demonstrated
 - Phishing Analysis
